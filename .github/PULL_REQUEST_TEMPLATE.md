@@ -4,9 +4,9 @@ Issue closed #(issue)
 
 ## Change Type
 
-<!--- This is a comment, you can leave this to give information to the contributor -->
+<!--- Please select a suitable option or write a new one -->
 
-- [ ] Bug fix 
+- [ ] Bug fix
 - [ ] New feature
 - [ ] Breaking change
 - [ ] Minor changes in old functionality
