@@ -10,7 +10,27 @@
     "postinstall": "nuxt prepare"
   },
   "dependencies": {
+    "@popperjs/core": "^2.11.8",
+    "axios": "^1.7.3",
+    "class-variance-authority": "^0.7.0",
+    "clsx": "^2.1.1",
+    "lucide-vue-next": "^0.427.0",
     "nuxt": "^3.12.4",
+    "nuxt-app": "file:",
+    "primevue": "^4.0.4",
+    "radix-vue": "^1.9.3",
+    "shadcn-nuxt": "^0.10.4",
+    "tailwind-merge": "^2.5.0",
+    "tailwindcss-animate": "^1.0.7",
+    "vue": "latest"
+  },
+  "devDependencies": {
+    "@nuxtjs/tailwindcss": "^6.12.1",
+    "sass": "^1.77.8",
+    "sass-loader": "^16.0.0",
+    "typescript": "^5.5.4"
+  },
+  "overrides": {
     "vue": "latest"
   }
 }
