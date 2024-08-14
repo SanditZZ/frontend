@@ -33,7 +33,7 @@
 </template>
 
 <script setup lang="ts">
-import { useFarmsStore } from "~/stores/usefarmStore";
+import { useFarmsStore } from "~/stores/useFarmStore";
 
 const route = useRoute();
 const farmId = String(route.params.id);

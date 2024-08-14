@@ -36,7 +36,7 @@ const { farms, loading } = storeToRefs(farmsStore);
 const { users } = storeToRefs(usersStore);
 
 onMounted(() => {
-  farmsStore.fetchFarms();
   usersStore.fetchUsers();
+  farmsStore.fetchFarms();
 });
 </script>

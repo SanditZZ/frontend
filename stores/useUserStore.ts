@@ -11,11 +11,9 @@ export const useUsersStore = defineStore({
   actions: {
     async fetchUsers() {
       this.loading = true;
-      const fetchPromise = axios.get("/api/users").then((response) => response.data);
-      const delayPromise = new Promise((resolve) => setTimeout(resolve, 500));
-      const data = await Promise.all([fetchPromise, delayPromise]).then(
-        (values) => values[0]
-      );
+      const data = await axios
+        .get<User[]>("/api/users")
+        .then((response) => response.data);
       this.users = data;
       this.loading = false;
     },
