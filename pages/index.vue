@@ -10,7 +10,11 @@
         >
           <h5 class="mb-2 text-xl font-semibold">{{ farm.name }}</h5>
           <p class="text-gray-700 line-clamp-3">{{ farm.location }}</p>
-          <Button class="w-full mt-4">View More</Button>
+          <NuxtLink
+            :to="`/farms/${farm.id}`"
+            class="block w-full p-2 mt-3 text-center text-white transition duration-300 rounded-lg bg-slate-900 hover:bg-slate-800"
+            >View More</NuxtLink
+          >
         </div>
       </div>
     </div>
