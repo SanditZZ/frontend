@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-col items-center my-8">
     <h2 class="mb-2 text-2xl">
-      Hi <span class="italic font-semibold">{{ users && users[0].name }}</span>
+      <!-- Hi <span class="italic font-semibold">{{ users && users[0].name }}</span> -->
     </h2>
     <h1 class="mb-6 text-4xl font-light text-center md:text-5xl">Farm List</h1>
     <div class="container mx-auto">
