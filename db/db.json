@@ -240,5 +240,21 @@
         "phone": "555-888-9999"
       }
     }
+  ],
+  "users": [
+    {
+      "name": "Alice Smith",
+      "email": "alice.smith@example.com",
+      "password": "password123",
+      "phoneNumber": "555-1234",
+      "address": "123 Main St, Anytown, USA"
+    },
+    {
+      "name": "Bob Johnson",
+      "email": "bob.johnson@example.com",
+      "password": "password123",
+      "phoneNumber": "555-5678",
+      "address": "456 Elm St, Anytown, USA"
+    }
   ]
 }

@@ -1,5 +1,5 @@
 <template>
-  <footer class="text-center pt-2">
+  <footer class="py-5 text-center">
     <div class="container">
       <p>© {{ new Date().getFullYear() }} For Farmers. All rights reserved.</p>
     </div>

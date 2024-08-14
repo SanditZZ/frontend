@@ -1,22 +1,22 @@
 import { defineStore } from "pinia";
 import axios from "axios";
-import type { Farm } from "~/types";
+import type { User } from "~/types";
 
-export const useFarmsStore = defineStore({
-  id: "farms",
+export const useUsersStore = defineStore({
+  id: "users",
   state: () => ({
-    farms: [] as Farm[],
+    users: [] as User[],
     loading: false,
   }),
   actions: {
-    async fetchFarms() {
+    async fetchUsers() {
       this.loading = true;
-      const fetchPromise = axios.get("/api/farms").then((response) => response.data);
+      const fetchPromise = axios.get("/api/users").then((response) => response.data);
       const delayPromise = new Promise((resolve) => setTimeout(resolve, 500));
       const data = await Promise.all([fetchPromise, delayPromise]).then(
         (values) => values[0]
       );
-      this.farms = data;
+      this.users = data;
       this.loading = false;
     },
   },

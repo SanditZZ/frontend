@@ -1,10 +1,13 @@
 <template>
   <div class="flex flex-col items-center my-8">
+    <h2 class="mb-2 text-2xl">
+      Hi <span class="italic font-semibold">{{ users && users[0].name }}</span>
+    </h2>
     <h1 class="mb-6 text-4xl font-light text-center md:text-5xl">Farm List</h1>
     <div class="container mx-auto">
       <div class="grid grid-cols-1 gap-4 md:grid-cols-2 lg:grid-cols-3">
         <div
-          v-for="farm in farmsStore.farms"
+          v-for="farm in farms"
           :key="farm.id"
           class="p-6 transition duration-300 bg-white rounded-lg shadow-sm hover:shadow-lg"
         >
@@ -17,17 +20,23 @@
           >
         </div>
       </div>
+      <p v-if="loading">Loading...</p>
     </div>
   </div>
 </template>
 
 <script setup lang="ts">
-import { Button } from "@/components/ui/button";
 import { useFarmsStore } from "~/stores/useFarmStore";
+import { useUsersStore } from "~/stores/useUserStore";
 
 const farmsStore = useFarmsStore();
+const usersStore = useUsersStore();
 
-onMounted(async () => {
-  await farmsStore.fetchFarms();
+const { farms, loading } = storeToRefs(farmsStore);
+const { users } = storeToRefs(usersStore);
+
+onMounted(() => {
+  farmsStore.fetchFarms();
+  usersStore.fetchUsers();
 });
 </script>
