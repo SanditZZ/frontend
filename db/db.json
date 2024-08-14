@@ -1,0 +1,244 @@
+{
+  "farms": [
+    {
+      "name": "Green Valley Farm",
+      "location": "Oregon, USA",
+      "areaSize": "150 acres",
+      "price": "$1,200,000",
+      "farmType": "Organic",
+      "owner": "John Doe",
+      "contactInfo": {
+        "email": "john.doe@example.com",
+        "phone": "555-123-4567"
+      }
+    },
+    {
+      "name": "Sunny Fields",
+      "location": "California, USA",
+      "areaSize": "200 acres",
+      "price": "$1,500,000",
+      "farmType": "Conventional",
+      "owner": "Jane Smith",
+      "contactInfo": {
+        "email": "jane.smith@example.com",
+        "phone": "555-987-6543"
+      }
+    },
+    {
+      "name": "Blue Hills Farm",
+      "location": "Texas, USA",
+      "areaSize": "300 acres",
+      "price": "$2,000,000",
+      "farmType": "Mixed",
+      "owner": "Jim Brown",
+      "contactInfo": {
+        "email": "jim.brown@example.com",
+        "phone": "555-111-2222"
+      }
+    },
+    {
+      "name": "Sunrise Farm",
+      "location": "Florida, USA",
+      "areaSize": "250 acres",
+      "price": "$1,800,000",
+      "farmType": "Organic",
+      "owner": "Sarah Johnson",
+      "contactInfo": {
+        "email": "sarah.johnson@example.com",
+        "phone": "555-333-4444"
+      }
+    },
+    {
+      "name": "Maple Leaf Farm",
+      "location": "Vermont, USA",
+      "areaSize": "180 acres",
+      "price": "$1,300,000",
+      "farmType": "Dairy",
+      "owner": "Michael Lee",
+      "contactInfo": {
+        "email": "michael.lee@example.com",
+        "phone": "555-555-6666"
+      }
+    },
+    {
+      "name": "Willow Creek Farm",
+      "location": "Washington, USA",
+      "areaSize": "220 acres",
+      "price": "$1,600,000",
+      "farmType": "Mixed",
+      "owner": "Nancy Davis",
+      "contactInfo": {
+        "email": "nancy.davis@example.com",
+        "phone": "555-777-8888"
+      }
+    },
+    {
+      "name": "Golden Acres",
+      "location": "Kansas, USA",
+      "areaSize": "400 acres",
+      "price": "$2,500,000",
+      "farmType": "Grain",
+      "owner": "Robert Wilson",
+      "contactInfo": {
+        "email": "robert.wilson@example.com",
+        "phone": "555-999-0000"
+      }
+    },
+    {
+      "name": "Pine Tree Farm",
+      "location": "Maine, USA",
+      "areaSize": "160 acres",
+      "price": "$1,100,000",
+      "farmType": "Forestry",
+      "owner": "Emily Brown",
+      "contactInfo": {
+        "email": "emily.brown@example.com",
+        "phone": "555-222-3333"
+      }
+    },
+    {
+      "name": "Red Barn Farm",
+      "location": "Ohio, USA",
+      "areaSize": "270 acres",
+      "price": "$1,700,000",
+      "farmType": "Conventional",
+      "owner": "William Garcia",
+      "contactInfo": {
+        "email": "william.garcia@example.com",
+        "phone": "555-444-5555"
+      }
+    },
+    {
+      "name": "Happy Cows Farm",
+      "location": "Wisconsin, USA",
+      "areaSize": "190 acres",
+      "price": "$1,400,000",
+      "farmType": "Dairy",
+      "owner": "Linda Martinez",
+      "contactInfo": {
+        "email": "linda.martinez@example.com",
+        "phone": "555-666-7777"
+      }
+    },
+    {
+      "name": "Riverbend Farm",
+      "location": "Kentucky, USA",
+      "areaSize": "310 acres",
+      "price": "$2,200,000",
+      "farmType": "Organic",
+      "owner": "Kevin Anderson",
+      "contactInfo": {
+        "email": "kevin.anderson@example.com",
+        "phone": "555-888-9999"
+      }
+    },
+    {
+      "name": "Harvest Moon Farm",
+      "location": "Missouri, USA",
+      "areaSize": "230 acres",
+      "price": "$1,500,000",
+      "farmType": "Mixed",
+      "owner": "Jessica Hernandez",
+      "contactInfo": {
+        "email": "jessica.hernandez@example.com",
+        "phone": "555-000-1111"
+      }
+    },
+    {
+      "name": "Cedar Ridge Farm",
+      "location": "New York, USA",
+      "areaSize": "170 acres",
+      "price": "$1,250,000",
+      "farmType": "Forestry",
+      "owner": "Matthew Robinson",
+      "contactInfo": {
+        "email": "matthew.robinson@example.com",
+        "phone": "555-222-4444"
+      }
+    },
+    {
+      "name": "Rolling Hills Farm",
+      "location": "Pennsylvania, USA",
+      "areaSize": "350 acres",
+      "price": "$2,100,000",
+      "farmType": "Grain",
+      "owner": "Laura Lewis",
+      "contactInfo": {
+        "email": "laura.lewis@example.com",
+        "phone": "555-555-6666"
+      }
+    },
+    {
+      "name": "Golden Harvest Farm",
+      "location": "Nebraska, USA",
+      "areaSize": "280 acres",
+      "price": "$1,800,000",
+      "farmType": "Conventional",
+      "owner": "Daniel Walker",
+      "contactInfo": {
+        "email": "daniel.walker@example.com",
+        "phone": "555-777-8888"
+      }
+    },
+    {
+      "name": "Highland Farm",
+      "location": "Colorado, USA",
+      "areaSize": "260 acres",
+      "price": "$1,650,000",
+      "farmType": "Organic",
+      "owner": "Rachel Hall",
+      "contactInfo": {
+        "email": "rachel.hall@example.com",
+        "phone": "555-999-0000"
+      }
+    },
+    {
+      "name": "Peaceful Pastures",
+      "location": "Tennessee, USA",
+      "areaSize": "240 acres",
+      "price": "$1,500,000",
+      "farmType": "Dairy",
+      "owner": "Thomas Young",
+      "contactInfo": {
+        "email": "thomas.young@example.com",
+        "phone": "555-111-2222"
+      }
+    },
+    {
+      "name": "Mountain View Farm",
+      "location": "Montana, USA",
+      "areaSize": "320 acres",
+      "price": "$2,000,000",
+      "farmType": "Mixed",
+      "owner": "Patricia King",
+      "contactInfo": {
+        "email": "patricia.king@example.com",
+        "phone": "555-333-4444"
+      }
+    },
+    {
+      "name": "Silver Springs Farm",
+      "location": "Nevada, USA",
+      "areaSize": "300 acres",
+      "price": "$1,900,000",
+      "farmType": "Grain",
+      "owner": "Steven Scott",
+      "contactInfo": {
+        "email": "steven.scott@example.com",
+        "phone": "555-555-7777"
+      }
+    },
+    {
+      "name": "Eagle Nest Farm",
+      "location": "Arizona, USA",
+      "areaSize": "290 acres",
+      "price": "$1,750,000",
+      "farmType": "Conventional",
+      "owner": "Barbara Adams",
+      "contactInfo": {
+        "email": "barbara.adams@example.com",
+        "phone": "555-888-9999"
+      }
+    }
+  ]
+}
